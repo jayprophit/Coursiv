@@ -10,12 +10,12 @@ These models are called "Large".  meaning there trained on massive amounts of te
 They learn patterns, relationships and structures in language, allowing them to generate coherent and contextually appriopriate responses to prompts or questions.
 its is specially designed to focus on engaging in conversations.
 ChatGPT is an LLM developed by OpenAI.
-its designed to understand and gerate human-like text in a chat format.
+its designed to understand and generate human-like text in a chat format.
 
 ## How Dose It Actually Work?
 it's built like a game of word predictions.
 when it recieves a prompt (question) it looks at the next most likely word based on its training.
-Thios happens peatively, building up a respponse word by word.
+This happens peatively, building up a respponse word by word.
 
 ### example: 01
 
