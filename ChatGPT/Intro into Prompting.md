@@ -9,12 +9,12 @@ example..."Write a story about a cat"
 
 ### example 01
 
-'''markdown
+```markdown
 write a [Description] story about a cat.  it should contain the word "palyful and "[Word]"
 
 (Description) = [short]
 (Word) = [paws]
-'''
+```
 
 #### Nevertheless, you might wonder, "Why is prompt engineering so important?"
 - it enhances the accuracy of the responses
@@ -40,14 +40,14 @@ meaning assigning a role to the model, ChatGPT will act in a style when providin
 
 ### example 02
 
-'''markdown
+```markdown
 You are a [Role] who works in a [Specification] style.  [Task] me a 4-line [Subject] about a cat.
 
 (Role) = [poet]
 (Specification) = [whimsical]
 (Task) = [Write]
 (Subject) = [poem]
-'''
+```
 
 #### Why dose providing context and perspective in your prompts help ChatGPT generate better responses?
 it helps generate more relevant and accurate responses.
@@ -63,10 +63,10 @@ initial prompt: What makes premium cat food beneficial for cats?
 
 ### example 03
 
-'''markdown
+```markdown
 [Clarification] [Specification] [Narrowing]
 
 (Clarification) = (detailed)
 (Specification) = (premium)
 (Narrowing) = (overall health)
-'''
+```
