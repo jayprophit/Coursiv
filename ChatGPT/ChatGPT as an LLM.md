@@ -19,22 +19,22 @@ Thios happens peatively, building up a respponse word by word.
 
 ### example: 01
 
-'''markdwon
+```markdwon
 [Task] the [subject] that starts with "Once upon a time, in a nd far away"
 
 (Task) = [continue]
 (Subject) = [story]
-'''
+```
 
 ### example: 02.01
 
-'''markdwon
+```markdown
 can you help me by [Task] the [Subject] to make a [What]?
 
 (Task) = [sharing]
 (Subject) = [best recipe]
 (What) = [sandwich]
-'''
+```
 
 #### How do you think ChatGPT responded when you asked for a sandwich recipe?
 it combined its understanding of sandwiches, cooking techniques, and common preferences to generate a unique response tailord to your question.
@@ -43,19 +43,19 @@ ChatGPT remember whay your talking about within the current chat session and can
 
 ### example: 02.02 continued
 
-'''markdwon
+```markdwon
 I am a [Context]. Can you [Task] your answer accordingly?
 
 (Context) = [vegetarian]
 (Task) = [refine]
-'''
+```
 
 ### example: 02.03 continued
 
-'''markdwon
+```markdwon
 [Task] me a [Clarification]  recipe so i would not need to think about [Subject].
 
 (Task) = [Give]
 (Clarification) = [Specific]
 (Subject) = [ingredinets]
-'''
+```
