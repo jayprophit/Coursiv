@@ -1,2 +1,0 @@
-# Feed ChatGPT with Data
-
