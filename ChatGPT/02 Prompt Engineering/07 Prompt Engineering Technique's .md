@@ -50,10 +50,10 @@ It breaks down tasks into logical sequences
 You are a [Role] for a customer support team. Your task is to gather [Task] about the customer's issue.
 Ask [Step 1] and extract all [Step 2] about the problem, ensuring you understand the context and specifics.
 
-(helpful assistant) = [Assist]
-(detailed information) = [customer]
-(clarifying questions) = [logging into]
-(relevant details) = [logging into]
+(Role) = [helpful assistant]
+(Task) = detailed information]
+(Step 1) = [clarifying questions]
+(Step 2) = [relevant details]
 ```
 
 ## Customer's Response:
@@ -67,7 +67,12 @@ It may also determine if the issue needs to be escalated.
 ```markdown
 Please [Step 1] the [Subject] and [Step 2] step-by-step solutions.
 
-(Task) = [Analyse]
+(Task) = [Analyze]
 (Person) = [issue]
 (Specific Issue) = [suggest]
 ```
+
+If the issue is resolved at this step, create a third prompt to confirm the resolution and gather feedback.
+If an escalation is needed, prepare another prompt to transfer, ensuring all relevant details are passed to the technical support team.
+
+This approach allows the chatbot to systematically handle complex issues, ensuring that no critical details are missed and that the customer's issue is either resolved or properly escalated.
