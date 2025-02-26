@@ -67,7 +67,7 @@ It may also determine if the issue needs to be escalated.
 ```markdown
 Please [Step 1] the [Subject] and [Step 2] step-by-step solutions.
 
-(Task) = [Assist]
+(Task) = [Analyse]
 (Person) = [issue]
 (Specific Issue) = [suggest]
 ```
